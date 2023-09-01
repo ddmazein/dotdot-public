@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dotdotpublic/frontend#readme",
   "publishConfig": {
-    "@dotdotpublic:registry": "https://npm.pkg.github.com"
+    "@dotdotpublic:registry": "https://npm.pkg.github.com",
+    "access": "public"
   }
 }
