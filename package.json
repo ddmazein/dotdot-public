@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dotdotpublic/frontend/issues"
   },
-  "homepage": "https://github.com/dotdotpublic/frontend#readme"
+  "homepage": "https://github.com/dotdotpublic/frontend#readme",
+  "publishConfig": {
+    "@dotdotpublic:registry": "https://npm.pkg.github.com"
+  }
 }
