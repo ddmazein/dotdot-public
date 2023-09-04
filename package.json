@@ -1,8 +1,14 @@
 {
   "name": "@dotdotpublic/frontend",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dotdotpublic/frontend/issues"
   },
-  "homepage": "https://github.com/dotdotpublic/frontend#readme"
+  "homepage": "https://github.com/dotdotpublic/frontend#readme",
+  "dependencies": {
+    "@dotdotpublic/frontend": "^1.0.2"
+  }
 }
