@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Команда для установки пакета
+npm install @dotdotpublic/frontend@latest
