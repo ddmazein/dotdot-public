@@ -1,3 +1,3 @@
 exports.printMsg = function() {
-    console.log("test123123");
+    console.log("ver 1.0.3");
 }
