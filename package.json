@@ -1,6 +1,6 @@
 {
   "name": "@dotdotpublic/frontend",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,7 +11,9 @@
   },
   "main": "dist/dotdot-components.common.cjs",
   "module": "dist/dotdot-components.umd.min.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
