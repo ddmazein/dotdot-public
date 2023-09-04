@@ -1,5 +1,5 @@
 //https://ru.vuejs.org/v2/cookbook/packaging-sfc-for-npm.html
-import TelephoneInput from "../components/TelephoneInput.vue";
+import TelephoneInput from "components/TelephoneInput.vue";
 
 const components = [TelephoneInput];
 
