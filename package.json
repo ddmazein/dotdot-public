@@ -11,11 +11,7 @@
   },
   "main": "dist/dotdot-components.common.cjs",
   "module": "dist/dotdot-components.umd.min.js",
-  "files": [
-    "src/assets",
-    "src/components",
-    "src/install.js"
-  ],
+  "files": ["dist"],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
