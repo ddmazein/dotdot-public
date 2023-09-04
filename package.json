@@ -1,6 +1,6 @@
 {
   "name": "@dotdotpublic/frontend",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
