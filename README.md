@@ -1,5 +1,24 @@
-# dotdot-public
+# @dotdotpublic/frontend
 
-Команда для установки последней версии пакета:
+## Project setup
+```
+npm install
+```
 
-npm install @dotdotpublic/frontend@latest
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
