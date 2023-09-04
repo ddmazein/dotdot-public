@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import TelephoneInput from './components/TelephoneInput.vue'
+import TelephoneInput from "./components/TelephoneInput.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    TelephoneInput
-  }
-}
+    TelephoneInput,
+  },
+};
 </script>
 
 <style lang="scss">
