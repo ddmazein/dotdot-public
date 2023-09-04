@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TelephoneInput from "./components/TelephoneInput.vue";
+import TelephoneInput from "./components/inputs/TelephoneInput.vue";
 
 export default {
   name: "App",

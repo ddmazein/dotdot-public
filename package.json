@@ -5,11 +5,20 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name dotdot-components src/index.js",
     "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "src/install.js",
-  "module": "src/install.js",
+  "main": "dist/dotdot-components.common.cjs",
+  "module": "dist/dotdot-components.umd.min.js",
+  "files": [
+    "src/assets",
+    "src/components",
+    "src/install.js"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
@@ -29,11 +38,6 @@
     "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
   },
-  "files": [
-    "src/assets",
-    "src/components",
-    "src/install.js"
-  ],
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -43,11 +47,6 @@
     "url": "https://github.com/dotdotpublic/frontend/issues"
   },
   "homepage": "https://github.com/dotdotpublic/frontend#readme",
-  "keywords": [],
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "readme": "ERROR: No README data found!",
-  "type": "module"
+  "readme": "ERROR: No README data found!"
 }

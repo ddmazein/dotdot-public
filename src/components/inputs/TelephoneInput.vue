@@ -18,5 +18,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/styles/telephone-input.scss";
+@import "../../assets/styles/telephone-input.scss";
 </style>
