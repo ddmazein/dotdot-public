@@ -1,20 +1,10 @@
 <template>
-  <div id="app">
-    <IconSpan symbol="napravlenie_icon_3" />
-    <Icon symbol="napravlenie_icon_3" />
-  </div>
+  <div id="app"></div>
 </template>
 
 <script>
-import Icon from "./components/icons/Icon.vue";
-import IconSpan from "./components/icons/IconSpan.vue";
-
 export default {
   name: "App",
-  components: {
-    IconSpan,
-    Icon,
-  },
 };
 </script>
 
