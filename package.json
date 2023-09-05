@@ -8,7 +8,7 @@
     "build:lib": "vue-cli-service build --target lib --name dotdot-components src/index.js",
     "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-patch": "npm run build:lib && npm version patch && npm publish"
+    "publish-patch": "npm run build:lib && npm publish"
   },
   "main": "./dist/dotdot-components.common.cjs",
   "module": "./dist/dotdot-components.umd.min.js",
