@@ -1,3 +1,4 @@
-import TelephoneInput from "./inputs/TelephoneInput.vue";
+import Icon from "./icons/Icon.vue";
+import IconSpan from "./icons/IconSpan.vue";
 
-export { TelephoneInput };
+export { Icon, IconSpan };

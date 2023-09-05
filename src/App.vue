@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <TelephoneInput />
+    <IconSpan symbol="napravlenie_icon_3" />
+    <Icon symbol="napravlenie_icon_3" />
   </div>
 </template>
 
 <script>
-import TelephoneInput from "./components/inputs/TelephoneInput.vue";
+import Icon from "./components/icons/Icon.vue";
+import IconSpan from "./components/icons/IconSpan.vue";
 
 export default {
   name: "App",
   components: {
-    TelephoneInput,
+    IconSpan,
+    Icon,
   },
 };
 </script>
@@ -23,5 +26,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: #2c3e50;
 }
 </style>
